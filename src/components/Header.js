@@ -7,7 +7,7 @@ function Header({nombre_euros, setnombre_euros, useToggle,openCur}) {
     return (
         <header>
             <h1>
-                Converteur
+            Converter
             </h1>
             <div className="flex">
         <input type="number" value={nombre_euros} onChange={handleChange}/>
